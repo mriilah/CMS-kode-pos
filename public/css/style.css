@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 400px;
+    width: 60%;
+    height: 800px;
     margin: 0 auto;
-    background-color: rgb(255, 81, 0);
+    background-color: none;
 }
