@@ -3346,15 +3346,15 @@ limitations under the License.
         </svg>
       </div>
       <a
-        href="landing.amp.html"
+        href="/"
         class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0"
       >
         <amp-img
           src="asset\img\carikodepos.png"
-          width="96"
-          height="27"
+          width="115"
+          height="34"
           layout="fixed"
-          class="my0 mx-auto"
+          class="my0 "
           alt=""
         ></amp-img>
       </a>
