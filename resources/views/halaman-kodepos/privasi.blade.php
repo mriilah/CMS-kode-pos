@@ -4,16 +4,14 @@
     <link rel="stylesheet" href="/css/style.css">
         <div class="container">
                  {{-- <header class="header clear" role="banner"> --}}
-                     <div class="logo">
-                         <a href="#">
-                             <img src="https://carikodepos.com/wp-content/themes/kodepos5/img/carikodepos.png" height="100" width="350" title="CariKodePOS.com" alt="Logo Kode Pos" class="logo-img" scale="0">
-                         </a>
-                     </div>
-             </div>
+                    <div class="logo ">
+						<img src="asset\img\carikodepos.png" height="100" width="350" title="CariKodePOS.com" alt="Logo Kode Pos" class="logo-img" scale="0">
+					</div>
         </div>
         <br class="clear">
-        <main role="main">
-                 <div class="wrapper">
+        <div>
+            <main role="main">
+                <div class="wrapper">
                     <section>
                     <article id="post-81260" class="post-81260 page type-page status-publish hentry">  
                     <p><strong>Kebijakan privasi</strong></p>
@@ -29,14 +27,7 @@
                             <p><strong>Cookies dan Web Beacons</strong></p>
                             <p>Carikodepos.com menggunakan cookies untuk menyimpan informasi tentang preferensi pengunjung, merekam informasi pengguna tertentu pada halaman yang dikunjungi, menyesuaikan halaman web berdasarkan tipe browser yang digunakan pengunjung atau informasi lainnya yang pengunjung kirimkan melalui browser yang digunakan.</p>
                         <br>
-                            <p><strong>DoubleClick DART Cookie</strong></p>
-                            <ul>
-                                <li>Google, sebagai vendor pihak ketiga, menggunakan cookies untuk menayangkan iklan di carikodepos.com.</li>
-                                <li>Penggunaan DART cookie oleh Google memungkinkan Google dapat menampilkan iklan yang sesuai kepada pengguna berdasarkan kunjungan di carikodepos.com dan situs lainnya di Internet.</li>
-                                <li>Pengguna dapat membatalkan penggunaan DART cookie dengan mengunjungi kebijakan privasi jaringan iklan dan konten Google di URL berikut : http://www.google.com/policies/technologies/ads/</li>
-                            </ul>
-                                
-                        <br>
+                        
                             <p>Beberapa mitra periklanan kami mungkin menggunakan cookies dan web beacon di situs. Mitra iklan kami meliputi : Google Adsense & Infolinks.</p>
                         <br>
                             <p>Server-server iklan pihak ketiga atau jaringan iklan ini menggunakan teknologi untuk mengirim iklan-iklan dan link-link yang muncul di carikodepos.com secara langsung ke browser Anda. Mereka secara otomatis menerima alamat IP Anda. Teknologi lainnya (seperti cookies, JavaScript atau Web Beacons) juga dapat digunakan oleh jaringan iklan pihak ketiga untuk mengukur efektifitas iklan mereka dan/atau untuk personalisasi iklan yang Anda lihat.</p>
@@ -59,9 +50,5 @@
                     
                 </div>           
             </main>
-   
-    <footer class="footer" role="contentinfo">
-        <p class="copyright"></p>
-    </footer>
-</div>
+        </div>
 @endsection

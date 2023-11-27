@@ -4,22 +4,15 @@
     <link rel="stylesheet" href="/css/style.css">
         <div class="container">
                  {{-- <header class="header clear" role="banner"> --}}
-                     <div class="logo">
-                         <a href="#">
-                             <img src="https://carikodepos.com/wp-content/themes/kodepos5/img/carikodepos.png" height="100" width="350" title="CariKodePOS.com" alt="Logo Kode Pos" class="logo-img" scale="0">
-                         </a>
-                     </div>
-             </div>
+                    <div class="logo ">
+						<img src="asset\img\carikodepos.png" height="100" width="350" title="CariKodePOS.com" alt="Logo Kode Pos" class="logo-img" scale="0">
+					</div>
         </div>
-        <br class="clear">
-    	
-    
-   
-       
+        <div>
             <main role="main">
-                 <div class="wrapper">
+                <div class="wrapper">
                     <section>
-                     <h1>Tentang Kami</h1>                             
+                     <h2>Tentang Kami</h2>                             
                         <article id="post-81260" class="post-81260 page type-page status-publish hentry">  
                             <p><strong>CariKodePOS.com</strong> – Mesin Pencari Kode Pos Indonesia</p>
                         <br>
@@ -35,9 +28,5 @@
                     </section>
                 </div>           
             </main>
-   
-    <footer class="footer" role="contentinfo">
-        <p class="copyright"></p>
-    </footer>
-</div>
+        </div>
 @endsection
