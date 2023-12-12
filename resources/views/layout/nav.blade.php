@@ -3494,6 +3494,5 @@ limitations under the License.
     <main id="content" role="main" class="main commerce-landing">
       @yield('content')
     </main>
-    
   </body>
 </html>

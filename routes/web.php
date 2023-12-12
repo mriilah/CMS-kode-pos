@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,16 @@ use App\Http\Controllers\PostController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/carikode', 'App\Http\Controllers\CarikodeController@store');
 Route::get('/', function () {
-    return view('layout.nav');
+    return view('halaman-kodepos.about');
+});
+Route::get('/master', function () {
+    return view('layout.master');
 });
 Route::get('/carikode', function () {
-    return view('halaman-kodepos.carikode');
+    $tbl_kodepos = DB::table('tbl_kodepos')->get();
+    return view('halaman-kodepos.carikode', compact('tbl_kodepos'));
 });
 Route::get('/about', function () {
     return view('halaman-kodepos.about');
@@ -27,6 +33,9 @@ Route::get('/privasi', function () {
 });
 Route::get('/kontak', function () {
     return view('halaman-kodepos.kontak');
+});
+Route::get('/kodepos', function () {
+    return view('halaman-kodepos.kodepos');
 });
 // Route::get('/','App\Http\Controllers\PostController@welcome');
 Route::get('/halaman-kodepos','PostController@about');

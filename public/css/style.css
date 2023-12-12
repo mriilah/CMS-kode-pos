@@ -4,7 +4,7 @@ body, h1, h2, h3, p {
 }
 
 .container {
-    max-width: 900px;
+    max-width: fit-content;
     margin: 0 auto;
     padding: 20px;
 }
@@ -24,6 +24,7 @@ body, h1, h2, h3, p {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
+    
 }
 
 h2 {
@@ -86,4 +87,25 @@ a:hover {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+#myInput {
+    background-image: url('/css/search.gif'); /* Add a search icon to input */
+    background-position: 7px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    
+  }
+
+  .results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
 }

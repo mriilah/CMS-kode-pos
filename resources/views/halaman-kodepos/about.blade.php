@@ -5,7 +5,7 @@
         <div class="container">
                  {{-- <header class="header clear" role="banner"> --}}
                     <div class="logo ">
-						<img src="asset\img\carikodepos.png" height="100" width="350" title="CariKodePOS.com" alt="Logo Kode Pos" class="logo-img" scale="0">
+						<amp-img src="asset\img\carikodepos.png" width="350" height="100" alt="Logo Kode Pos" class="logo-img" scale="0"></amp-img>
 					</div>
         </div>
         <div>
@@ -14,7 +14,7 @@
                     <section>
                      <h2>Tentang Kami</h2>                             
                         <article id="post-81260" class="post-81260 page type-page status-publish hentry">  
-                            <p><strong>CariKodePOS.com</strong> – Mesin Pencari Kode Pos Indonesia</p>
+                            <p>Website Pencari Kode Pos Indonesia</p>
                         <br>
                             <p>Kami hadir untuk memudahkan pencarian kode pos seluruh wilayah Indonesia, dengan hasil yang cepat, tampilan yang simple, dan data yang lebih lengkap.</p>
                         <br>
