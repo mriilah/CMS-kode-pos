@@ -34,13 +34,12 @@ sistem simulasi kode pos ini dibangun menggunakan :
 
 
 ## Installation
-- git clone (masukan URL dari github)
-- git pull origin master
-- Jalankan ‘composer install’ di terminal untuk mendownload semua dependensi.
-- jalankan perintah ‘cp .env.example .env’ untuk meng-copy file .env.
+- `git clone` (masukan URL dari github)
+- `git pull origin master`
+- Jalankan `composer install` di terminal untuk mendownload semua dependensi.
+- jalankan perintah `cp .env.example .env` untuk meng-copy file .env.
 - Edit file .env sesuai dengan kebutuhan sistem.
-- Jalankan perintah ‘php artisan migrate —seed’ dengan dua garis strip untuk migrasi dan seed database.
-- Jalankan perintah ‘php artisan key:generate’ untuk meng-generate key aplikasi.
+- Jalankan perintah `php artisan key:generate` untuk meng-generate key aplikasi.
 
 ...
 C\XAMPP\htdocs\https:
@@ -54,6 +53,6 @@ Berikut link carikodepos yang sudah di Hosting
 https://caridepos.000webhostapp.com/
 
 ## Credit
-> Aldino putra nugraha
-> Fadilah amri
-> Nur atika
++ Aldino putra nugraha
++ Fadilah amri
++ Nur atika
