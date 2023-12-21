@@ -25,9 +25,8 @@ limitations under the License.
     <meta name="amp-google-client-id-api" content="googleanalytics" />
     <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-
+    
     <style amp-boilerplate="">
       body {
         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -3313,10 +3312,124 @@ limitations under the License.
         .commerce-related-product-name {
         text-decoration: underline;
       }
+
+      /* Style links */
+      a {
+          color: #000000;
+          text-decoration: none;
+      }
+
+      a:hover {
+          text-decoration: underline;
+          color: #0056b3;
+      }
+
+      body, h1, h2, h3, p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+          max-width: fit-content;
+          margin: 0 auto;
+          padding: 20px;
+      }
+
+      .logo {
+          text-align: center;
+          object-fit: fill;
+          
+      }
+
+      .logo img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .wrapper {
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 8px;
+          
+      }
+
+      h2 {
+          color: #333;
+          font-size: 24px;
+          margin-bottom: 20px;
+      }
+
+      p {
+          color: #666;
+          line-height: 1.6;
+          margin-bottom: 10px;
+      }
+
+      /* Animasi teks */
+      .wrapper p, h2 {
+          animation-name: fadeInUp;
+          animation-duration: 1s;
+          animation-timing-function: ease;
+          animation-fill-mode: both;
+          opacity: 0;
+      }
+
+          @keyframes fadeInUp {
+          from {
+              opacity: 0;
+              transform: translateY(20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+      /* Animasi logo */
+      .logo-img {
+          animation-name: fadeInUp;
+          animation-duration: 1s;
+          animation-timing-function: ease;
+          animation-fill-mode: both;
+          opacity: 0;
+      }
+
+      @keyframes bounce {
+          from {
+              opacity: 0;
+              transform: translateY(20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+          #myInput {
+        background-image: url('/css/search.gif'); /* Add a search icon to input */
+        background-position: 7px 12px; /* Position the search icon */
+        background-repeat: no-repeat; /* Do not repeat the icon image */
+        width: 100%; /* Full-width */
+        font-size: 16px; /* Increase font-size */
+        padding: 12px 20px 12px 40px; /* Add some padding */
+        border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 12px; /* Add some space below the input */
+        
+      }
+
+    
+      .no-result{
+        display:none;
+      }
+
+      .results tr[visible='true']{
+        display:table-row;
+      }
+      
     </style>
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
+  
   </head>
 <body>
     <!-- Start Navbar -->

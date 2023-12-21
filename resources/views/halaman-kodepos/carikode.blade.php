@@ -1,13 +1,6 @@
 @extends('layout.nav-amp')
 @section('content')
     
-    {{-- <div class="container">
-        <div class="logo">
-            <amp-img src="{{ asset('/asset/img/carikodepos.png') }}" width="350" height="100" alt="Logo Kode Pos"
-                class="logo-img"></amp-img>
-        </div>
-    </div> --}}
-
     <div>
         <main role="main" class="">
             <div class="wrapper container">
@@ -19,7 +12,7 @@
                         </div>
                     </form>
                     <div class="table-responsive">
-                        <table id="dataTable" class="table table-striped">
+                        <table id="dataTable" class="table-header amp-table">
                             <thead>
                                 <tr>
                                     <th scope="col">Provinsi</th>
