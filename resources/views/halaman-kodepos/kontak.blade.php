@@ -1,19 +1,19 @@
-@extends('layout.nav')
+@extends('layout.nav-amp')
 
 @section('content')
-    <link rel="stylesheet" href="/css/style.css">
+    
         <div class="container">
                 {{-- <header class="header clear" role="banner"> --}}
                     <div class="logo ">
-						<amp-img src="asset\img\carikodepos.png" width="350" height="100" alt="Logo Kode Pos" class="logo-img" scale="0"></amp-img>
+						<amp-img src="asset\img\carikodepos.png" width="350" height="100" alt="Logo Kode Pos" class="logo-img"></amp-img>
 					</div>
             </div>
         </div>
 
-            <main role="main">
+            <main role="main" class="logo-img">
                 <div class="wrapper">
                     <section>
-                        <h2>Tentang Kami</h2>
+                        <h2>Kontak Kami</h2>
                             <article id="post-81260" class="post-81260 page type-page status-publish hentry">
                             <p>Website Pencari Kode Pos Indonesia</p>
                             <br>

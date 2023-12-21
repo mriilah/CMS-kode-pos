@@ -1,19 +1,19 @@
-@extends('layout.nav')
+@extends('layout.nav-amp')
 
 @section('content')
-    <link rel="stylesheet" href="/css/style.css">
         <div class="container">
                  {{-- <header class="header clear" role="banner"> --}}
                     <div class="logo ">
-						<amp-img src="asset\img\carikodepos.png" width="350" height="100" alt="Logo Kode Pos" class="logo-img" scale="0"></amp-img>
+						<amp-img src="asset\img\carikodepos.png" width="350" height="100" alt="Logo Kode Pos" class="logo-img"></amp-img>
 					</div>
         </div>
         <br class="clear">
         <div>
-            <main role="main">
+            <main role="main" class="logo-img">
                 <div class="wrapper">
                     <section>
                     <article id="post-81260" class="post-81260 page type-page status-publish hentry">  
+                    <h2>Privasi</h2>
                     <p><strong>Kebijakan privasi</strong></p>
                      <p>Privasi para pengunjung ini sangat penting. Dokumen kebijakan privasi ini mengurai jenis informasi pribadi yang diterima dan dikumpulkan oleh pihak kami dan bagaimana informasi pribadi tersebut digunakan.</p>                            
                        
