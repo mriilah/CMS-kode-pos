@@ -10,4 +10,16 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    private function getView($viewName)
+{
+    if (request()->segment(1) == 'amp') {
+        if (view()->exists($viewName . '-amp')) {
+            $viewName .= '-amp';
+        } else {
+            abort(404);
+        }
+    }
+    return $viewName;
 }
+}
+

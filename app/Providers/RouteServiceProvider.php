@@ -46,6 +46,12 @@ class RouteServiceProvider extends ServiceProvider
             Route::middleware('web')
                 ->namespace($this->namespace)
                 ->group(base_path('routes/web.php'));
+                
+                Route::prefix('amp')
+                    ->middleware('web')
+                    ->namespace($this->namespace)
+                    ->group(base_path('routes/web.php'));
+                
         });
     }
 
@@ -61,11 +67,5 @@ class RouteServiceProvider extends ServiceProvider
         });
     }
 
-    protected function mapAmpRoutes()
-    {
-    Route::prefix('amp')
-        ->middleware('web')
-        ->namespace($this->namespace)
-        ->group(base_path('routes/web.php'));
-    }
+    
 }
