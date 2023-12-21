@@ -21,18 +21,26 @@ use Illuminate\Support\Facades\Response;
 
 Route::get('/',[CarikodeController::class,'index'])->name('carikode.index');
 
+
+Route::get('/about-amp', function () {
+    return view('halaman-kodepos.about-amp');
+});
 Route::get('/about', function () {
     return view('halaman-kodepos.about');
+});
+Route::get('/privasi-amp', function () {
+    return view('halaman-kodepos.privasi-amp');
 });
 Route::get('/privasi', function () {
     return view('halaman-kodepos.privasi');
 });
+Route::get('/kontak-amp', function () {
+    return view('halaman-kodepos.kontak-amp');
+});
 Route::get('/kontak', function () {
     return view('halaman-kodepos.kontak');
 });
-Route::get('/home', function () {
-    return view('halaman-kodepos.home');
-});
+
 Route::get('/provinsi/{provinsi}',[CarikodeController::class, 'provinsi'] );
 Route::get('/kabupaten/{provinsi}',[CarikodeController::class, 'kabupaten'] );
 Route::get('/kecamatan/{provinsi}',[CarikodeController::class, 'kecamatan'] );

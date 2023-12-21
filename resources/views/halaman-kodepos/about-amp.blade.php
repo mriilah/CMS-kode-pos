@@ -1,4 +1,4 @@
-@extends('layout.nav')
+@extends('layout.nav-amp')
 
 @section('content')
     

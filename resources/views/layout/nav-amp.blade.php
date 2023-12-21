@@ -2502,6 +2502,11 @@ limitations under the License.
       body {
         font-size: 0.94rem;
         line-height: normal;
+        background: rgb(232, 232, 232);
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        
       }
       .h3 {
         color: #222;
@@ -3425,6 +3430,88 @@ limitations under the License.
         display:table-row;
       }
       
+      table, th, td {
+        border-collapse: collapse;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      main.table{
+        display: flex;
+        background-color: #fff5;
+        box-shadow: 0 .4rem .8rem #0005;
+        border-radius: .8rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+      }
+
+      .table_header{
+        width: 100%;
+        height: 10%;
+        background-color: #fff4;
+        border-radius: .8rem;
+        box-shadow: 0 .4rem .8rem #0005;
+      }
+      .table_body{
+        width: 95%;
+        height: 10%;
+        background-color: #fffb;
+        margin: .8rem auto;
+        border-radius: .6rem;
+        overflow: auto;
+        margin-bottom: 2rem;
+      }
+
+      .table_body::-webkit-scrollbar{
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+      .table_body::-webkit-scrollbar{
+        border-radius: .5rem;
+        background-color: #0004;
+        visibility: hidden;
+      }
+      
+
+      table{
+        width: 100%;
+      }
+
+      thead th{
+        position: sticky;
+        background-color: #d5d1defe;
+      }
+
+      tbody tr:nth-child(event) {
+        background-color: #00000087
+      }
+
+      .form-control {
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid #72b9ff;
+        padding-right: 8rem;
+        margin-right: 5px;
+        margin-top: 10px;
+      }
+
+      .btn {
+        border-radius: 10px;
+        padding: 13px 16px;
+        background-color: #343a40;
+        color: white;
+        border: none;
+      }
+
+      .d-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     </style>
 
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
@@ -3512,13 +3599,13 @@ limitations under the License.
             >
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="/about">About</a>
+            <a class="ampstart-nav-link" href="/about-amp">About</a>
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="/privasi">Privasi</a>
+            <a class="ampstart-nav-link" href="/privasi-amp">Privasi</a>
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="/kontak">Kontak</a>
+            <a class="ampstart-nav-link" href="/kontak-amp">Kontak</a>
           </li>
         </ul>
       </nav>
