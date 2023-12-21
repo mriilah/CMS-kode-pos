@@ -1,64 +1,59 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# CMS kode pos 🛰
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+sistem simulasi kode pos adalah deretan angka atau huruf yang dicantumkan pada alamat paket berisi surat, dokumen maupun barang. Dalam urusan pengiriman paket, kode pos atau zip code merupakan informasi penting untuk mempercepat pemilahan paket dan pengiriman hingga alamat tujuan.
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features kode pos
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- about
+- privasi
+- kontak 
+- cari kode pos
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Requirement
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP 8.2
+- Laravel 8.0
+- MySQL
+- AMP html
+- Boostrap 5
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Tech
+sistem simulasi kode pos ini dibangun menggunakan :
+- [XAMPP](https://www.apachefriends.org/download.html) - Aplikasi XAMPP merupakan sebuah paket perangkat lunak (software) komputer yang befungsi sebagai server lokal untuk mengampu berbagai jenis data wibsite yang sedang dalam pengembangan.
+- [Visual studio code](https://code.visualstudio.com/) -Visual Studio Code (VS Code) adalah editor teks sumber terbuka yang dikembangkan oleh Microsoft. Meskipun dinamakan "Visual Studio," VS Code bukanlah versi lengkap dari Microsoft Visual Studio, tetapi lebih merupakan editor kode ringan dan fleksibel yang dapat digunakan untuk berbagai jenis pengembangan perangkat lunak.
+- [Google chrome](https://www.google.com/chrome/) - Google Chrome adalah sebuah peramban web atau web browser yang dikembangkan oleh perusahaan teknologi Google.Google Chrome dikenal karena kecepatan dan kinerjanya yang tinggi dalam memuat halaman web. Ini dirancang untuk memberikan pengalaman menjelajah yang lancar.
+- [CSS](https://www.bing.com/search?q=css+documentation)-Cascading Style Sheets, adalah bahasa penanda yang digunakan untuk mendesain tata letak dan tampilan halaman web. Fungsi utama CSS adalah mengontrol presentasi visual elemen-elemen HTML di halaman web, seperti warna, ukuran, jarak, dan tata letak.
+- [PHP](https://www.php.net/releases/8.2/en.php) -"Hypertext Preprocessor," adalah bahasa pemrograman sisi server yang sering digunakan untuk pengembangan aplikasi web dinamis dan pengolahan data pada server. PHP dirancang khusus untuk menciptakan halaman web yang dapat berinteraksi dengan pengguna dan mengakses basis data.
+- [Bootstrap](https://getbootstrap.com/) -Bootstrap adalah kerangka kerja (framework) front-end sumber terbuka yang dikembangkan oleh Twitter. Kerangka kerja ini dirancang untuk memudahkan pengembangan web responsif dan cepat. Dengan menggunakan Bootstrap, pengembang dapat membuat tata letak dan antarmuka pengguna yang menarik dengan lebih cepat dan efisien.
+- [Laravel](https://laravel.com/) -Laravel adalah sebuah framework PHP yang open-source, modern, dan sangat populer untuk pengembangan aplikasi web. 
+- [AMP html](https://amp.dev/documentation/guides-and-tutorials/learn/spec/amphtml) -Amp HTML, atau Accelerated Mobile Pages HTML, adalah sebuah proyek terbuka yang dikembangkan oleh Google dengan tujuan untuk meningkatkan kecepatan dan kinerja halaman web, terutama pada perangkat mobile. 
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Installation
+- git clone (masukan URL dari github)
+- git pull origin master
+- Jalankan ‘composer install’ di terminal untuk mendownload semua dependensi.
+- jalankan perintah ‘cp .env.example .env’ untuk meng-copy file .env.
+- Edit file .env sesuai dengan kebutuhan sistem.
+- Jalankan perintah ‘php artisan migrate —seed’ dengan dua garis strip untuk migrasi dan seed database.
+- Jalankan perintah ‘php artisan key:generate’ untuk meng-generate key aplikasi.
 
-## Contributing
+...
+C\XAMPP\htdocs\https:
+...
+Start apache pada XAMPP
+Akses pada browser dengan url nama valet
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+(jika belum di hosting)
+... 
+Berikut link carikodepos yang sudah di Hosting
+https://caridepos.000webhostapp.com/
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Credit
+> Aldino putra nugraha
+> Fadilah amri
+> Nur atika
