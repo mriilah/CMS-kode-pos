@@ -50,7 +50,7 @@ Akses pada browser dengan url nama valet
 (jika belum di hosting)
 ... 
 Berikut link carikodepos yang sudah di Hosting
-https://caridepos.000webhostapp.com/
+https://pencariankodepos.my.id/
 
 ## Credit
 + Aldino putra nugraha
